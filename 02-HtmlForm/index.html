@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" maxlength="5" id="name" name="fname" placeholder="enter your name.." required>
+        <br>
+        <label for="num">Fav number:</label>
+        <input type="number" placeholder="enter your fav number.." min="6" max="30" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="" placeholder="enter your email.." required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="enter your password.." required>
+        <br>
+        <span for="gender">Gender:</span>
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="usa">USA</option>
+            <option value="ita">Italy</option>
+        </select>
+        <br>
+        <label for="msg">Message:</label>
+        <br>
+        <textarea name="txt" id="txt" cols="50" rows="5" required></textarea>
+        <br>
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" required>
+        <br>
+        <label for="file">Upload file:</label>
+        <input type="file" name="file" id="file" multiple required>
+        <br>
+        <label for="bday">Birthdate:</label>
+        <input type="date" name="bday" id="bday" required>
+        <br>
+        <label for="color">Favorite Color:</label>
+        <input type="color" name="color" id="color" required>
+        <br>
+        <label for="text">Personal Website:</label>
+        <input type="text" name="text" id="text" placeholder="enter your personal website.." required>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
