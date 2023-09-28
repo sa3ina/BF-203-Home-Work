@@ -1,0 +1,29 @@
+
+div.first{
+    width: 100%;
+    height:300px;
+    background-image: url(./grape.jpeg);
+    background-size:contain;
+    background-repeat: repeat;
+}
+.second{
+    width: 100%;
+    height:300px;
+    background-image: url(./blueberry.jpeg);
+    background-repeat: repeat;
+}
+.third{
+    width: 100%;
+    height:300px;
+    background-image: url(./orange.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div.fourth{
+    background-image: url(./strawberry.jpeg);
+    background-repeat: repeat-x;
+    width:100%;
+    height:300px;
+    background-size:contain;
+}

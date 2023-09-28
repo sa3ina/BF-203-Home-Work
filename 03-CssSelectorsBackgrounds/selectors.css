@@ -1,0 +1,124 @@
+/* HTML-de olan h1 taglarinin rengini mavi edir */
+/* h1{
+    color:blue;
+}*/
+
+
+/* HTML-de olan class'i greeting olan paragrafi italic edir */
+/* .greeting{
+    font-style: italic;
+} */
+
+
+/* HTML-de id-si explanation olan paragrafi mavi edir */
+/* #explanation{
+    color: rgb(73, 155, 183);
+} */
+
+
+/* HTML-de class'i experience olan div'i boz edir */
+/* div.experience{
+    background-color: grey;
+} */
+
+
+/* HTML-de listin elementlerinin rengini benovseyi edir */
+/* ul li{
+    color: blueviolet;
+} */
+
+
+/* HTML-de div'in icerisindeki paragrafin rengini yasil edir */
+/* div>p{
+    color:green;
+} */
+
+
+/* HTML-de div'den sonra gelen paragrafi yasil edir */
+/* div+p{
+    color:lightgreen;
+} */
+
+
+/* HTML-de id'si container olan divin icersindeki paragrafin arxa fonunu cehrayi edir */
+/* div#container p{
+    background-color: pink;
+} */
+
+
+/* HTML-de id'si name olan div'in icerisindeki paragrafin arxa fonunu benovseyi edir */
+/* div#name >p{
+    background-color: violet;
+} */
+
+/* HTML-de div'in icerisindeki paragrafin arxa fonunu mavi edir */
+/* div~p{
+    background-color: aliceblue;
+}  */
+
+
+/* HTML-de paragrafin icerisinde olan ilk ovladin arxa fonunu sari edir */
+/* p:first-child{
+    background-color: yellow;
+} */
+
+
+/* HTML-de button'un ilk ovladinin arxa fonunu mavi edir */
+/* button:first-child{
+    background-color: blue;
+} */
+
+
+/* HTML-de class'i goy olan button'u mavi edir */
+/* [class|="blue"]{
+    background-color: red;
+} */
+
+
+/* HTML-de class'i hello olan button'u narinci edir */
+/* [class|="hello"]{
+    background-color: orange;
+} */
+
+
+/* HTML-de list elementinin class'i select olmayan button'un arxa fonunu sari edir */
+/* 
+ul li:not(.select){
+    background-color: yellow;
+} */
+
+
+/* HTML-de id'si parag olan span ve paragrafin arxa fonunu cehrayi edir */
+/* span#parag, p#parag{
+   background-color: brown;
+} */
+
+
+/* HTML-de id'si animal olmayan list elementinin arxa fonunu cehrayi edir */
+/* ul li:not(#animal){
+    background-color: magenta;
+} */
+
+
+/* HTML-de list elementinin cut saydaki ovladlarinin arxa fonunu mavi edir */
+/* ul li:nth-of-type(2n){
+    background-color: lightcoral;
+} */
+
+
+/* HTML-de ovladi olmayan paragrafin arxa fonunu mavi edir */
+/* p:only-of-type{
+   background-color: aquamarine;
+} */
+
+
+/* HTML-de id'si pen olan div'i kursoru uzerine getirende qehveyi reng edir*/
+/* #pen:hover{
+    background-color: bisque;
+} */
+
+
+/* HTML-de class'i hello olan buttonun arxa fonunu cehrayi edir */
+/* [class~="hello"]{
+    background-color: darkblue;
+} */
