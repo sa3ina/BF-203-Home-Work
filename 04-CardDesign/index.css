@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(138,155,134);
+    background: linear-gradient(90deg, rgba(138,155,134,1) 0%, rgba(167,177,135,1) 100%);
+}
+.div1, .div2, .div3{
+    width:31.7%;
+    height:90vh;
+    background-color: white;
+    margin:10px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top:25px;
+}
+img{
+    width: 100%;
+    height: 40%;
+}
+.text{
+  text-align: left;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  
+}
+h1, p{
+    margin-bottom:12px;
+}
+a{
+    color:#8c9e86;
+    text-decoration: none;
+}
