@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px grey;
+}
+.section1, .section2, .section3, .section4{
+    border:4px solid rgb(202, 151, 57);
+    margin: 0 auto;
+    width: 96%;
+    height: 96vh;
+}
+.box{
+    text-align: center;
+    line-height: center;
+    color:white;
+    font-size:50px;
+}
+.box1{
+    background-color: #6FBC9D;
+}
+.box2{
+    background-color: #6592D7;
+}
+.box3{
+    background-color: #8E51B3;
+}
+.box4{
+    background-color: #3C475D;
+}
+.box5{
+    background-color: #E2CA3D;
+}
+.box6{
+    background-color: #CC8437;
+}
+.box7{
+    background-color: #C75346;
+}
+.box8{
+    background-color: #BFC3C8;
+}
+.box9{
+    background-color: #79CE77;
+}
+.box10{
+    background-color: #5DA085;
+}
+
+/* section 1 */
+.section1{
+    display: flex;
+}
+.section1 .box{
+    align-self: baseline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .box1{
+   font-size: 20px;
+   line-height: 20px;
+   width: 20px;
+   height: 30px;
+   padding-top:6px;
+}
+
+.section1 .box3{
+    height: 90px;
+    width: 50px;
+    line-height: 90px;
+    font-size: 70px;
+}
+.section1 .box4{
+    height: 150px;
+    width: 75px;
+    line-height: 100px;
+    font-size:100px;
+}
+.section1 .box5{
+    font-size: 12px;
+    height: 17px;
+    width: 17px;
+    line-height: 5px;
+    padding:6px;
+}
+.section1 .box2, .section1 .box6, .section1 .box7, .section1 .box8, .section1 .box9{
+    height: 70px;
+    width: 40px;
+    line-height: 75px;
+}
+.section1 .box10{
+    width: 65px;
+    height: 60px;
+    line-height: 56px;
+}
+
+/* section 2 */
+.section2{
+    display: flex;
+}
+.section2 .box{
+    height: 13vh;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .box2{
+    height: 100%;
+    display: block;
+    padding-top:18px;
+}
+.section2 .box6{
+    justify-content: center;
+    align-self: center ;
+}
+.section2 .box9{
+    align-self: flex-end;
+    height: 16vh;
+    display: block;
+    padding-top: 10px;
+}
+
+/* section 3 */
+.section3 .box{
+    height: 100px;
+    width: 20%;
+}
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3 .box{
+    height: 100px;
+    width: 100%;
+}
+.sectioninside1, .sectioninside2{
+    width: 50%;
+    height: 50vh;
+}
+.section3 .box1, .section3 .box2, .section3 .box3{
+    height: 27vh;
+}
+.section3 .box4{
+    height: 14vh;
+}
+.section3 .box5{
+    height: 47.5vh;
+}
+.section3 .box6{
+    height: 47.5vh;
+}
+
+/* section 4 */
+.section4 .box{
+    height: 100px;
+    width:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
