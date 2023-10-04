@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    text-align: center;
+    font-weight: bold;
+}
+.header img{
+    width: 900px;
+    height: 40vh;
+    position:absolute;
+}
+.leftside{
+    height: 40vh;
+    width: 98%;
+    position: relative;
+    justify-content: center;
+    color: white;
+}
+.rightside{
+    height: 40vh;
+    width: 300px;
+    display: grid;
+    gap: 5px;
+    margin-left: 100px;
+}
+.rightcont1{
+    height: 19.5vh;
+    width: 100%;
+    background-color: #FFC600;
+    padding: 50px;
+}
+.rightcont2{
+    height: 19.5vh;
+    width:100%;
+    background-color: #FFC600;
+    padding: 50px;
+}
+
+
+.container{
+    margin: 20px auto;
+    width: 90vw;
+}
+body{
+    background: rgb(226,58,107);
+    background: linear-gradient(90deg, rgba(226,58,107,1) 0%, rgba(118,70,209,1) 100%);
+}
+.price1, .price2, ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imageandtext{
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    height: 50vh;
+    gap:10px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas: 'img1 price1'
+                         'img1 price2';
+}
+
+.container .head .price1,.container .head .price2{
+    height: auto;
+    background-color: #FFC600;
+
+}
+.container .head .price1{
+    grid-area: price1;
+}
+.container .head .price2{
+    grid-area: price2;
+}
+.container .head img{
+    height: 50vh;
+    width: 100%;
+    grid-area:img1;
+    display: block;
+}
+.container .activite ul li p{
+    font-size: 13px;
+}
+.menu ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:5px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.menu ul li{
+    height: 34px;
+    width: 17vw;
+    background-color: #FFC600;
+}
+.activite ul li{
+    width: 20%;
+    height:150px;
+    background-color: white;
+}
+.activite ul li h1, .activite ul li h4, .activite ul li p{
+    margin-top: 10px;
+}
+.activite ul li p{
+    font-size: 9px;
+    font-weight: 100;
+}
+.activite ul{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+.activite ul li{
+    display: block;
+    text-align: center;
+}
+
+.taco{
+    height: 40vh;
+    background-color: white;
+    width: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content:row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.taco img{
+    height: 40vh;
+    width: 270px;
+    margin-left: 30px;
+}
+.taco .inform h3,.taco .inform p, .taco .inform, .taco .inform button{
+    margin-top: 15px;
+}
+button{
+    background-color: #FFC600;
+    border:none;
+    padding: 8px 18px;
+}
+.grams div img{
+    height: 200px;
+    width: 17.7vw;
+    background-image:center;
+}
+.grams{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.textgram{
+    margin-bottom:5px;
+    text-align: center;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1024px) {
+   .grams{
+
+    grid-template-columns: repeat(2, auto);
+   }
+}
+@media only screen and (max-width: 425px) {
+    .grams{
+ 
+     grid-template-columns: repeat(1, auto);
+    }
+}
+   
