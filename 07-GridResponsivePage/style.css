@@ -14,12 +14,28 @@
     height: 40vh;
     position:absolute;
 }
+}
+.header .text1{
+    background-color: #FFC600;
+    width: 30%;
+    margin-bottom: 2px ;
+    position: absolute;
+    left:50px;
+    top:30%;
+}
+.header .text2{
+    background-color: #FFC600;
+    width: 20%;
+    position: absolute;
+    left:50px;
+    top:50%;
+}
 .leftside{
     height: 40vh;
     width: 98%;
     position: relative;
     justify-content: center;
-    color: white;
+    color: black;
 }
 .rightside{
     height: 40vh;
