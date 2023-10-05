@@ -1,0 +1,40 @@
+.animation1{
+    width: 90vw;
+    height: 500px;
+    border:1px solid black;
+    margin:0 auto;
+}
+.animation1 .box{
+    width:100px;
+    height: 100px;
+    display: flex;
+    margin:20px;
+}
+.box1{
+    background-color: cornflowerblue;
+    transition: width 1s;
+}
+.box2{
+    background-color:rgb(196, 63, 83);
+    transition: width 1s;
+}
+.box1:hover{
+    transition-timing-function: ease-in-out;
+    width:300px;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    position: relative;
+
+}
+.box2{
+    transition-delay: 1s;
+}
+.box1:hover + .box2{
+    transition-timing-function: ease-in-out;
+    width:300px;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    position: relative;
+    animation-duration: 3s;
+}
