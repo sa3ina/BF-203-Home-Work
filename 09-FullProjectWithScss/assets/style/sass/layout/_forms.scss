@@ -1,0 +1,22 @@
+form{
+    height: 60vh;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 50px;
+    input{
+        border-top:none;
+        border-left:none;
+        border-right: none;
+    }
+    textarea{
+        border:none;
+        border-left:none;
+        border-right: none;
+    }
+    button{
+        background-color: #1ABC9C;
+        padding:50px;
+        color:white;
+        margin-top:20px ;
+    }
+}

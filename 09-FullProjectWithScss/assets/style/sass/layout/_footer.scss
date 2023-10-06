@@ -1,0 +1,17 @@
+.footer{
+    height: 36vh;
+    background-color: #2C3E50;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:100px;
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        i{
+            border:1px solid white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+}
