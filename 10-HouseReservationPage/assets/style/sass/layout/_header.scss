@@ -1,0 +1,129 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondColor;
+  height: 68px;
+  color: white;
+  align-items: center;
+  padding: 0 63px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  .headerLeftSide {
+    display: flex;
+    .links {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-left: 42px;
+        color: white;
+        display: flex;
+      }
+      a {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: $mainFont;
+      }
+    }
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+header .headerRightSide {
+  font-weight: 400;
+  font-size: 18px;
+  a {
+    color: white;
+  }
+  span {
+    font-size: 16px;
+    border-bottom: 1px dotted white;
+    padding-bottom: 5px;
+  }
+  button {
+    color: white;
+    background-color: $mainColor;
+    padding: 10px 26px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 2px;
+  }
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 80px;
+  .search {
+    width: 400px;
+    height: 60px;
+    .border {
+      border-radius: 3px;
+      i {
+        margin-left: 10px;
+      }
+    }
+    input {
+      padding: 10px 20px 10px 20px;
+    }
+  }
+}
+.rent {
+  width: 100px;
+  height: 45px;
+  .border {
+    border-radius: 3px;
+    // border: 1px solid white;
+  }
+  .rentText {
+    padding: 10px 14px;
+  }
+  i {
+    padding-left: 15px;
+    color: rgb(55, 54, 54);
+    font-size: 12px;
+  }
+}
+.bed {
+  width: 100px;
+  height: 45px;
+  .border {
+    border-radius: 3px;
+  }
+  .bedText {
+    padding: 10px 15px 10px 10px;
+    i {
+      padding-right: 5px;
+    }
+  }
+}
+.bath {
+  width: 100px;
+  height: 45px;
+  .border {
+    border-radius: 3px;
+  }
+  .bathText {
+    padding: 10px 15px 10px 10px;
+    i {
+      padding-right: 5px;
+    }
+  }
+}
+.searchButton {
+  button {
+    background-color: $secondColor;
+    padding: 9px 26px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+}

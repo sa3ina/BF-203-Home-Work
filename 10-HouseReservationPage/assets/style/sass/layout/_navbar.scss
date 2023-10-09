@@ -1,0 +1,33 @@
+nav {
+  background-image: url(https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  height: 650px;
+  color: white;
+  background-position: center;
+  @include flex(flex, column);
+  align-items: flex-start;
+  padding: 160px;
+
+  span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  button {
+    border: none;
+    background-color: $mainColor;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 30px;
+  }
+}

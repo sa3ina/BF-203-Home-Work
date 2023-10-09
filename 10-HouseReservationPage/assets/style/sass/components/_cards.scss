@@ -1,0 +1,29 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  position: relative;
+  gap: 22px;
+  font-family: $mainFont;
+  .card {
+    .card-body {
+      h5 {
+        margin-bottom: 20px;
+      }
+    }
+    ul {
+      @include flex(flex, row);
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+  .iconright {
+    @extend .iconPropertyHotels;
+    right: 60px;
+  }
+  .iconleft {
+    @extend .iconPropertyHotels;
+    left: 60px;
+  }
+}

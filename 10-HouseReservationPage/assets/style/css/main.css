@@ -1,0 +1,502 @@
+.iconPropertyHotels, .cards .iconleft, .cards .iconright {
+  font-size: 30px;
+  top: 50%;
+  position: absolute;
+}
+
+.iconPropertyAgents, .agents .iconright, .agents .iconleft {
+  font-size: 30px;
+  top: 57%;
+  position: absolute;
+}
+
+.topbtn {
+  border-radius: 50%;
+  background-color: #01a0eb;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 5px;
+  bottom: 20px;
+  left: 1350px;
+  position: sticky;
+}
+.topbtn i {
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #004274;
+  height: 68px;
+  color: white;
+  align-items: center;
+  padding: 0 63px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+header .headerLeftSide {
+  display: flex;
+}
+header .headerLeftSide .links {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+header .headerLeftSide .links li {
+  margin-left: 42px;
+  color: white;
+  display: flex;
+}
+header .headerLeftSide .links a {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+}
+header img {
+  margin-right: 10px;
+}
+
+header .headerRightSide {
+  font-weight: 400;
+  font-size: 18px;
+}
+header .headerRightSide a {
+  color: white;
+}
+header .headerRightSide span {
+  font-size: 16px;
+  border-bottom: 1px dotted white;
+  padding-bottom: 5px;
+}
+header .headerRightSide button {
+  color: white;
+  background-color: #05aeff;
+  padding: 10px 26px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 30px;
+  margin-right: 2px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 80px;
+}
+.categories .search {
+  width: 400px;
+  height: 60px;
+}
+.categories .search .border {
+  border-radius: 3px;
+}
+.categories .search .border i {
+  margin-left: 10px;
+}
+.categories .search input {
+  padding: 10px 20px 10px 20px;
+}
+
+.rent {
+  width: 100px;
+  height: 45px;
+}
+.rent .border {
+  border-radius: 3px;
+}
+.rent .rentText {
+  padding: 10px 14px;
+}
+.rent i {
+  padding-left: 15px;
+  color: rgb(55, 54, 54);
+  font-size: 12px;
+}
+
+.bed {
+  width: 100px;
+  height: 45px;
+}
+.bed .border {
+  border-radius: 3px;
+}
+.bed .bedText {
+  padding: 10px 15px 10px 10px;
+}
+.bed .bedText i {
+  padding-right: 5px;
+}
+
+.bath {
+  width: 100px;
+  height: 45px;
+}
+.bath .border {
+  border-radius: 3px;
+}
+.bath .bathText {
+  padding: 10px 15px 10px 10px;
+}
+.bath .bathText i {
+  padding-right: 5px;
+}
+
+.searchButton button {
+  background-color: #004274;
+  padding: 9px 26px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+nav {
+  background-image: url(https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  height: 650px;
+  color: white;
+  background-position: center;
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 160px;
+}
+nav span {
+  font-size: 18px;
+  font-weight: 400;
+}
+nav h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+nav p {
+  font-size: 20px;
+}
+nav h2 {
+  font-size: 40px;
+}
+nav button {
+  border: none;
+  background-color: #05aeff;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-top: 30px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jost", sans-serif;
+  margin-top: 100px;
+  text-align: center;
+}
+.display h1 {
+  font-weight: 500;
+  font-size: 38px;
+  color: #192839;
+  margin-bottom: 17px;
+}
+.display p {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 430px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.explore {
+  background-color: #f1f4f7;
+  height: 400px;
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.explore .exploreRightSide {
+  padding-left: 70px;
+  padding-top: 60px;
+}
+.explore .exploreRightSide h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.explore .exploreRightSide p {
+  margin-bottom: 50px;
+}
+.explore .exploreRightSide button {
+  background-color: #05aeff;
+  border: none;
+  padding: 10px 35px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.explore .exploreLeftSide {
+  padding: 100px 60px 0 20px;
+  display: flex;
+}
+.explore .box {
+  background-color: white;
+  height: 200px;
+  width: 210px;
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explore .box img {
+  margin-bottom: 20px;
+}
+
+.howWeHelp {
+  background-image: url(https://thearchitecturedesigns.com/wp-content/uploads/2021/10/home-office-4.jpg);
+  height: 600px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+.howWeHelp .helpInside {
+  display: flex;
+  justify-content: center;
+}
+.howWeHelp .helpInside .helpBox {
+  margin-top: 45px;
+  background-color: #05aeff;
+  height: 300px;
+  width: 330px;
+  padding: 50px 20px;
+  box-shadow: 0px 10px 16px rgba(84, 0, 0, 0.06);
+}
+.howWeHelp .helpInside .helpBox h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.howWeHelp .helpInside .helpBox img {
+  margin-bottom: 30px;
+}
+
+.properties {
+  text-align: center;
+}
+.properties h1 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.agents {
+  position: relative;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.agents .iconleft {
+  left: 40px;
+}
+.agents .iconright {
+  right: 40px;
+}
+.agents .agentcards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.agents .card {
+  border: none;
+}
+.agents .card a {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.agents .card img {
+  height: 310px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.agents .card p {
+  font-size: 15px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  position: relative;
+  gap: 22px;
+  font-family: "Jost", sans-serif;
+}
+.cards .card .card-body h5 {
+  margin-bottom: 20px;
+}
+.cards .card ul {
+  display: flex;
+  justify-content: flex;
+  flex-direction: row;
+}
+.cards .card ul i {
+  margin-right: 5px;
+}
+.cards .iconright {
+  right: 60px;
+}
+.cards .iconleft {
+  left: 60px;
+}
+
+.subscribeNews {
+  display: flex;
+  justify-content: flex;
+  flex-direction: row;
+  background-color: #004274;
+  color: white;
+  text-align: left;
+  height: 400px;
+}
+.subscribeNews .insideText {
+  padding: 60px 60px 50px 70px;
+}
+.subscribeNews .insideText h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.subscribeNews .insideText button {
+  background-color: #05aeff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 31px;
+  font-weight: 400;
+  border: none;
+  font-size: 18px;
+}
+.subscribeNews .insideText p {
+  margin-bottom: 40px;
+}
+.subscribeNews .insideText #input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #beccd6;
+  color: white;
+  width: 550px;
+  margin-bottom: 30px;
+}
+.subscribeNews .insideText ::placeholder {
+  color: white;
+  opacity: 1;
+}
+.subscribeNews .subImage img {
+  height: 400px;
+  width: 710px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex;
+  flex-direction: row;
+  padding: 70px 40px 70px 70px;
+  gap: 40px;
+  justify-content: space-around;
+}
+.footer h4 {
+  font-size: 20px;
+}
+.footer .konato {
+  width: 300px;
+}
+.footer .konato img {
+  margin-bottom: 25px;
+}
+.footer .konato p {
+  font-weight: 300;
+}
+.footer .konato ul {
+  display: flex;
+  justify-content: flex;
+  flex-direction: row;
+  padding-left: 4px;
+  gap: 10px;
+}
+.footer .konato ul li {
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer .navigation {
+  text-align: left;
+}
+.footer .navigation h4 {
+  padding-left: 16px;
+  margin-bottom: 40px;
+}
+.footer .navigation ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.footer .services {
+  text-align: left;
+}
+.footer .services h4 {
+  padding-left: 16px;
+  margin-bottom: 40px;
+}
+.footer .services ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.footer .support {
+  text-align: left;
+}
+.footer .support h4 {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.footer .support ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.footer .contactUs {
+  text-align: left;
+  font-family: "Jost", sans-serif;
+}
+.footer .contactUs h4 {
+  padding-left: 26px;
+  margin-bottom: 40px;
+}
+.footer .contactUs ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.footer .contactUs span a {
+  color: #004274;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 31px;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
