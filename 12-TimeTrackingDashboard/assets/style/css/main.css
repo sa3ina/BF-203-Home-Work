@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 14px 0;
+  height: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header .logo a {
+  color: black;
+  font-size: 22px;
+}
+header .links {
+  margin-left: 20px;
+}
+header .links li {
+  margin-right: 20px;
+}
+header .links li a {
+  height: 100%;
+  color: black;
+}
+
+.mobile-menu {
+  border: 1px solid lightgray;
+  padding: 8px;
+  border-radius: 5px;
+  color: lightgray;
+  font-size: 20px;
+  display: none;
+}
+
+.cart {
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  padding: 6px 15px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.cart span#cart #cart-quantity {
+  padding: 0px 5px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+.cart:hover {
+  background-color: black;
+}
+.cart:hover i {
+  color: white;
+}
+
+.cart:hover span#cart {
+  color: white;
+}
+
+#shop-in-style {
+  background-color: #212529;
+  padding: 80px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#shop-in-style article {
+  text-align: center;
+}
+#shop-in-style article p {
+  color: rgb(158, 157, 157);
+  font-size: 20px;
+}
+#shop-in-style article h2 {
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+#cards {
+  border: 1px solid green;
+  padding: 100px 0px;
+}
+#cards .card {
+  overflow: hidden;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+#cards .card .card-img-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+#cards .card .card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#cards .card .card-details-wrapper {
+  text-align: center;
+  padding: 20px 35px;
+}
+#cards .card .card-details-wrapper article {
+  margin-bottom: 50px;
+}
+#cards .card .card-details-wrapper h4 {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#cards .card .card-details-wrapper button {
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+#cards .card .card-details-wrapper button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-menu {
+    display: block;
+  }
+  header .links {
+    display: none;
+  }
+  header .cart {
+    display: none;
+  }
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class|=col] {
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+footer {
+  padding: 40px 0px;
+  background-color: #212529;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=main.css.map */
