@@ -29,6 +29,7 @@
 // console.log(str.includes("p"))
 // console.log(str.indexOf("S"))
 // console.log(str.lastIndexOf("n"))
+// console.log(str.normalize("NFC"));
 
 // ------1------
 // let str = "i_m_a_student";
