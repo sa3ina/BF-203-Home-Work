@@ -1,3 +1,35 @@
+// let str = " Genius";
+// let str2=" Gen"
+// console.log(str.match("s"))
+// console.log(str.repeat(2))
+// console.log(str.search(" "))
+// console.log(str.localeCompare(str2))
+// console.log(str.valueOf())
+// console.log(String.raw`\u2607`);
+// console.log(str.length);
+// console.log(str.slice(2, 4));
+// console.log(str.substring(1, 3));
+// console.log(str.substr(1,3))
+// console.log(str.replace("Ge", "hi"));
+// console.log(str.replaceAll("n","="));
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str.concat("dostum","ii"));
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+// console.log(str.padStart(10, "0"));
+// console.log(str.padEnd(10, "."));
+// console.log(str.charAt(1));
+// console.log(str.charCodeAt(0));
+// console.log(str.split(""));
+// console.log(str.endsWith("us"))
+// console.log(str.startsWith(" "))
+// console.log(String.fromCharCode(37))
+// console.log(str.includes("p"))
+// console.log(str.indexOf("S"))
+// console.log(str.lastIndexOf("n"))
+
 // ------1------
 // let str = "i_m_a_student";
 // console.log(str.replaceAll("_", "-"));
