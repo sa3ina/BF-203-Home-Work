@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  background: rgb(99, 224, 202);
+  background: linear-gradient(
+    180deg,
+    rgba(99, 224, 202, 1) 0%,
+    rgba(76, 131, 229, 1) 100%
+  );
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toDoDiv {
+  width: 460px;
+  background-color: white;
+  border-radius: 5px;
+}
+.container {
+  margin: 20px;
+}
+.addToDo {
+  width: 320px;
+  height: 40px;
+  padding: 20px;
+  margin-bottom: 17px;
+}
+.plusBtn {
+  border: none;
+  font-size: 23px;
+  background-color: #8e49e7;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 7px;
+}
+.tasks {
+  height: 40px;
+  width: 320px;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.endText {
+  margin-top: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.clearBtn {
+  border: none;
+  background-color: #8e49e7;
+  color: white;
+  border-radius: 3px;
+  margin-left: 340px;
+  margin-bottom: 10px;
+}
+.mark-as-done {
+  background-color: green;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 40px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+.done {
+  text-decoration: line-through;
+}
+.error {
+  color: red;
+  display: none;
+}
+#noTasksText {
+  color: #999;
+  display: none;
+}
