@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+body {
+  background-color: #f1eff1;
+}
+.accordion {
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.accordion-item {
+  color: black;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.fa-chevron-down {
+  justify-content: center;
+}
+.accordion-item-body-content {
+  margin: 10px;
+}
+button {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.accordion-item-body {
+  display: none;
+}
