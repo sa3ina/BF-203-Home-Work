@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card {
+  margin-top: 130px;
+}
+img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+ul li.items {
+  display: flex;
+  gap: 20px;
+}
+li.input-field {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #3f56dc;
+}
+input {
+  border-radius: 15px;
+  border: none;
+  background-color: #2e3c9c;
+  padding-left: 15px;
+  color: white;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header {
+  font-weight: bold;
+}
