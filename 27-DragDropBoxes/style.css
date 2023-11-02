@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.cards {
+  margin: 60px auto;
+  width: 80vw;
+}
+
+.tier3,
+.tier2,
+.tier1,
+.unranked {
+  border: 2px solid black;
+  background-color: #d4d2d4;
+  display: flex;
+}
+.blueTier {
+  background-color: #0b286a;
+  border: 2px solid black;
+  width: 100px;
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unranked {
+  margin-top: 30px;
+  height: 60px;
+  display: flex;
+}
+.box1,
+.box2,
+.box3 {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.greyTierBoxes {
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+.box1 {
+  background-color: #735290;
+}
+.box2 {
+  background-color: #f49d37;
+}
+.box3 {
+  background-color: #3f88c5;
+}
+.greyTier1,
+.greyTier2,
+.greyTier3,
+.greyTierBoxes {
+  width: 100%;
+  display: flex;
+}
