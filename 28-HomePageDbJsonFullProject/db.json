@@ -1,0 +1,60 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "age": 35,
+      "name": "Adele",
+      "nationality": "British",
+      "image": "https://i.dailymail.co.uk/1s/2023/04/04/21/69481829-11939111-image-a-32_1680641386742.jpg",
+      "genre": "POP"
+    },
+    {
+      "id": 2,
+      "age": 42,
+      "name": "Beyonce",
+      "nationality": "American",
+      "image": "https://businesselitesafrica.com/wp-content/uploads/2023/06/Philanthropic-Wave-How-Beyonce-Donates-1-million-to-Ten-London-based-Nigerian-Restaurateurs.jpg",
+      "genre": "POP"
+    },
+    {
+      "id": 3,
+      "name": "Melanie Martinez",
+      "nationality": "American",
+      "age": 28,
+      "image": "https://variety.com/wp-content/uploads/2019/09/melanie-martinez-press-image-3-melanie-martinez-brian-zuniga.jpg",
+      "genre": "Alternative pop"
+    },
+
+    {
+      "id": 4,
+      "age": 33,
+      "name": "The Weeknd",
+      "nationality": "Canadian",
+      "image": "https://variety.com/wp-content/uploads/2021/05/N9A1937.jpg?w=1000"
+    },
+    {
+      "id": 5,
+      "name": "Lana Del Rey",
+      "age": 38,
+      "nationality": "American",
+      "image": "https://media.npr.org/assets/img/2012/01/26/110722_lanadelrey_08-051c_20120118_123848-375f1fab6b5bbc33a9971862985b786ef780871f.jpg?s=5",
+      "genre": "Alt-pop"
+    },
+    {
+      "id": 6,
+      "age": 32,
+      "name": "Ed Sheeran",
+      "nationality": "British",
+      "image": "https://media.architecturaldigest.com/photos/6525c43d493660f046a6f87c/4:3/w_3000,h_2250,c_limit/GettyImages-1496396189.jpg",
+      "genre": "POP"
+    },
+    {
+      "id": 7,
+      "name": "Skrillex",
+      "nationality": "American",
+      "age": 35,
+      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-9500-20130210-skrillex-624x420-1360545980.jpg?w=624",
+      "genre": "Electro house"
+    }
+  ]
+}
