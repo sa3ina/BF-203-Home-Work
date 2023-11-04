@@ -1,0 +1,161 @@
+nav {
+  width: 100%;
+  height: 8vh;
+  padding: 10px;
+  padding-left: 140px;
+  padding-right: 140px;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(185, 182, 220, 1) 59%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+.categories {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card {
+  gap: 30px;
+  margin: 10px;
+}
+.cardside {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 30px;
+}
+/* Reset some default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for each card */
+.card-container {
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px;
+  max-width: 300px;
+  // overflow: hidden;
+  // flex-direction: column;
+}
+
+/* Hero image container */
+.hero-image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hero image */
+.hero-image {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s;
+}
+
+/* Main content area */
+.main-content {
+  padding: 20px;
+}
+
+/* Card title link */
+h1 a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Card description */
+p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #666;
+}
+
+/* Coin base and time left sections */
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  flex-direction: column;
+}
+
+.coin-base,
+.time-left {
+  display: flex;
+  align-items: center;
+}
+
+.small-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Card attribute section */
+.card-attribute {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
+
+.small-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Attribution text */
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+  font-size: 14px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+.contMeal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+.bodyformeals {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d5dadc;
+}
+.removeAll {
+  display: block;
+  text-align: right;
+  margin: 30px;
+}
+.sum {
+  display: flex;
+}

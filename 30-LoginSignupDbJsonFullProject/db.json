@@ -1,0 +1,234 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Lana Del Rey",
+      "age": 38,
+      "nationality": "American",
+      "image": "https://media.npr.org/assets/img/2012/01/26/110722_lanadelrey_08-051c_20120118_123848-375f1fab6b5bbc33a9971862985b786ef780871f.jpg?s=5",
+      "genre": "Alt-pop"
+    },
+    {
+      "id": 2,
+      "age": 42,
+      "name": "Beyonce",
+      "nationality": "American",
+      "image": "https://businesselitesafrica.com/wp-content/uploads/2023/06/Philanthropic-Wave-How-Beyonce-Donates-1-million-to-Ten-London-based-Nigerian-Restaurateurs.jpg",
+      "genre": "POP"
+    },
+    {
+      "id": 3,
+      "name": "Melanie Martinez",
+      "nationality": "American",
+      "age": 28,
+      "image": "https://variety.com/wp-content/uploads/2019/09/melanie-martinez-press-image-3-melanie-martinez-brian-zuniga.jpg",
+      "genre": "Alternative pop"
+    },
+    {
+      "id": 4,
+      "age": 33,
+      "name": "The Weeknd",
+      "nationality": "Canadian",
+      "image": "https://variety.com/wp-content/uploads/2021/05/N9A1937.jpg?w=1000",
+      "genre": "POP"
+    },
+    {
+      "id": 5,
+      "age": 35,
+      "name": "Adele",
+      "nationality": "British",
+      "image": "https://i.dailymail.co.uk/1s/2023/04/04/21/69481829-11939111-image-a-32_1680641386742.jpg",
+      "genre": "POP"
+    },
+    {
+      "id": 6,
+      "age": 32,
+      "name": "Ed Sheeran",
+      "nationality": "British",
+      "image": "https://media.architecturaldigest.com/photos/6525c43d493660f046a6f87c/4:3/w_3000,h_2250,c_limit/GettyImages-1496396189.jpg",
+      "genre": "POP"
+    },
+    {
+      "id": 7,
+      "name": "Skrillex",
+      "nationality": "American",
+      "age": 35,
+      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-9500-20130210-skrillex-624x420-1360545980.jpg?w=624",
+      "genre": "Electro house"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "price": 12.99,
+      "ingredients": [
+        "spaghetti",
+        "ground beef",
+        "tomato sauce",
+        "onion",
+        "garlic",
+        "herbs"
+      ],
+      "image": "https://www.marionskitchen.com/wp-content/uploads/2022/11/15-Minute-Bolognese-01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Alfredo",
+      "price": 14.99,
+      "ingredients": [
+        "chicken breast",
+        "fettuccine pasta",
+        "cream sauce",
+        "parmesan cheese",
+        "garlic"
+      ],
+      "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-V3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vegetable Stir-Fry",
+      "price": 11.99,
+      "ingredients": [
+        "broccoli",
+        "carrots",
+        "bell peppers",
+        "soy sauce",
+        "ginger",
+        "garlic"
+      ],
+      "image": "https://www.budgetbytes.com/wp-content/uploads/2022/03/Easy-Vegetable-Stir-Fry-V1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Grilled Salmon",
+      "price": 16.99,
+      "ingredients": [
+        "salmon fillet",
+        "lemon",
+        "olive oil",
+        "dill",
+        "salt",
+        "pepper"
+      ],
+      "image": "https://fitfoodiefinds.com/wp-content/uploads/2020/05/grilled-salmon-12.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Caesar Salad",
+      "price": 8.99,
+      "ingredients": [
+        "romaine lettuce",
+        "croutons",
+        "parmesan cheese",
+        "caesar dressing"
+      ],
+      "image": "https://www.healthyseasonalrecipes.com/wp-content/uploads/2023/05/ceasar-salad-dressing-sq-031.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Beef Tacos",
+      "price": 10.99,
+      "ingredients": [
+        "ground beef",
+        "taco shells",
+        "lettuce",
+        "tomato",
+        "sour cream",
+        "salsa"
+      ],
+      "image": "https://www.chilipeppermadness.com/wp-content/uploads/2021/11/Birria-Tacos-SQ.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Margherita Pizza",
+      "price": 13.99,
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "mozzarella cheese",
+        "fresh basil",
+        "olive oil"
+      ],
+      "image": "https://au.ooni.com/cdn/shop/articles/20220211142645-margherita-9920.jpg?crop=center&height=800&v=1662539926&width=800"
+    },
+    {
+      "id": 8,
+      "name": "Sushi Platter",
+      "price": 18.99,
+      "ingredients": [
+        "sushi rice",
+        "noru seaweed",
+        "fresh fish (e.g., salmon, tuna)",
+        "avocado",
+        "soy sauce"
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/5fb4299bc4391d58134367db/1607453049811-DZU05ZBSW3YPHU2G2TX2/Special+rolls+party+tray.jpg"
+    }
+  ],
+  "users": [
+    {
+      "email": "anna@mail.ru",
+      "username": "anna",
+      "password": "12345",
+      "balance": "200",
+      "id": 3
+    },
+    {
+      "email": "gepa@mailinator.com",
+      "username": "mylocete",
+      "password": "Pa$$w0rd!",
+      "balance": "Enim est dolor quo ",
+      "id": 4
+    },
+    {
+      "email": "xytuvax@mailinator.com",
+      "username": "guwybodi",
+      "password": "salam",
+      "balance": "Autem officiis sunt ",
+      "id": 5
+    },
+    {
+      "email": "detexaho@mailinator.com",
+      "username": "wasoh",
+      "password": "salam",
+      "balance": "Quod animi tenetur ",
+      "id": 6
+    },
+    {
+      "email": "tiry@mailinator.com",
+      "username": "wuhex",
+      "password": "Gjslss",
+      "balance": "Nisi dolorum dolor v",
+      "id": 7
+    },
+    {
+      "email": "zuwoben@mailinator.com",
+      "username": "syhopyx",
+      "password": "Pa$$w0rd!",
+      "balance": "58",
+      "id": 8
+    },
+    {
+      "email": "jejynudanu@mailinator.com",
+      "username": "wyqohikixo",
+      "password": "Pa$$w0rd!",
+      "balance": "99",
+      "id": 9
+    },
+    {
+      "email": "mifog@mailinator.com",
+      "username": "gomudihupu",
+      "password": "Pa$$w0rd!",
+      "balance": "100",
+      "id": 10
+    },
+    {
+      "email": "selena@mail.ru",
+      "username": "Selena",
+      "password": "12345S",
+      "balance": "17",
+      "id": 11
+    }
+  ]
+}
