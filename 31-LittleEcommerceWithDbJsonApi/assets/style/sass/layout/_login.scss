@@ -1,0 +1,73 @@
+.loginBody {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("https://images.pexels.com/photos/9516473/pexels-photo-9516473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  font-family: "Arial";
+  text-align: center;
+}
+.login {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  // background: #dadff7;
+  background-color: transparent;
+  border-radius: 15px;
+  text-align: left;
+  input {
+    border-radius: 7px;
+    border: none;
+    padding: 3px;
+  }
+}
+h2 {
+  text-align: center;
+  color: rgb(255, 115, 0);
+  padding: 20px;
+}
+label {
+  color: #0f0f0f;
+  font-size: 17px;
+}
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#passwordLogin,
+#usernameLogin {
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+}
+#log {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+}
+.remember {
+  color: white;
+  font-size: 17px;
+}
+.password {
+  float: right;
+  background-color: grey;
+}
+.btn-warning {
+  width: 200px;
+}

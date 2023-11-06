@@ -1,0 +1,25 @@
+.btn-dark {
+  color: white;
+}
+.registerBtn {
+  text-align: center;
+  .btn-primary {
+    width: 400px;
+  }
+}
+.text-center {
+  color: rgb(255, 255, 255);
+}
+#register-form {
+  input {
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.586);
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+.registerBody {
+  background-color: rgb(142, 179, 212);
+  background-image: url("https://images.unsplash.com/photo-1511233389693-4a066f739752?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
