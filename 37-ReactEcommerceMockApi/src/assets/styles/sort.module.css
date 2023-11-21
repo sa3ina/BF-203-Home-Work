@@ -1,0 +1,9 @@
+.min {
+  background-color: rgb(68, 69, 73);
+  color: rgb(252, 252, 252);
+  margin: 5px;
+}
+.max {
+  background-color: rgb(204, 207, 207);
+  color: rgb(6, 6, 6);
+}

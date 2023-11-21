@@ -1,0 +1,61 @@
+.formCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.771);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  width: 300px;
+  margin: 20px auto;
+  margin-top: 80px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.inputt {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  /* width: 710px; */
+  background-color: transparent;
+}
+.button {
+  background-color: #000000;
+  color: white;
+}
+.button {
+  background-color: pink;
+}
+.button1 {
+  background-color: rgb(190, 146, 215);
+}
+.table {
+  margin: 20px;
+}
+.tableInf {
+  border-collapse: collapse;
+  margin-top: 60px;
+  width: 100%;
+}
+.tableInf th,
+.tableInf td {
+  border: 1px solid #b1aeae;
+  padding: 8px;
+}
+
+.tableInf thead {
+  background-color: #f2f2f2;
+}
+.edit {
+  background-color: #eec84a;
+  color: rgb(0, 0, 0);
+}
+.delete {
+  background-color: rgb(150, 53, 46);
+  color: white;
+}

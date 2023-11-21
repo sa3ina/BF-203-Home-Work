@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Palanquin:wght@100;200;300;400;500;600&display=swap");
+
+#root {
+  min-width: 100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-image: url("https://img.freepik.com/free-vector/autumn-elements_53876-93894.jpg?w=1800&t=st=1700342345~exp=1700342945~hmac=092f8b0c93aafc7c95ac274f2dc0e885f776228c32c097dd55670c09c35f8905");
+  background-size: contain;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em rgba(255, 157, 100, 0.667));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #2a464daa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+label {
+  font-size: 20px;
+}
+
+.login-button:hover {
+  background-color: #36783d;
+}
+.register-button:hover {
+  background-color: #36783d;
+}
+.red-color {
+  color: red;
+}
+.green-color {
+  background-color: #bed4be;
+}
+.form-edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+html {
+  width: 100%;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5d1c1c;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+  display: flex;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .classnone {
+    display: none;
+  }
+}
+
+.red {
+  color: red;
+}
+.black {
+  color: rgb(255, 255, 255);
+}
+.white-color {
+  background-color: rgba(240, 230, 230, 0.911);
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* gap: 870px; */
+}
+.heart {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  background-color: transparent;
+  font-size: 30px;
+}
+.discount {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: #45a049;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 4px 10px;
+}
+
+.forms {
+  display: flex;
+}
