@@ -1,0 +1,22 @@
+.p {
+  font-size: 0.8rem;
+  margin-bottom: 90px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #1d809f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 30px;
+}
+.container {
+  width: 1422px;
+}

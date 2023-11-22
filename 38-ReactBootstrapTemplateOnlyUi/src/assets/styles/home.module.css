@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+
+  /* width: 100%; */
+  min-height: 45rem;
+  width: 1422px;
+  margin: 0;
+  padding: 0;
+  color: #213547;
+  /* min-width: 1450px; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial;
+  width: 100%;
+}
+#root {
+  display: flex;
+  padding: 0;
+}
+html {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+div {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 5.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #212529;
+  margin-bottom: 0;
+}
+h3 {
+  font-style: italic;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 60px;
+  color: #212529;
+}
+a {
+  padding: 1.25rem 2.5rem;
+  background-color: #1d809f;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.text {
+  width: 720px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  a {
+    padding: 0.8rem 1.6rem;
+    font-size: 12px;
+  }
+}

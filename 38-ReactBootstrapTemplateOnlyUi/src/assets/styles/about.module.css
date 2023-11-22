@@ -1,0 +1,19 @@
+h2 {
+  margin-bottom: 30px;
+}
+p {
+  font-weight: 300;
+  margin-bottom: 60px;
+  font-size: 1.25em;
+}
+.about {
+  background-color: #212529;
+}
+.container {
+  height: 300px;
+  width: 100%;
+  width: 1422px;
+}
+body {
+  width: 100%;
+}

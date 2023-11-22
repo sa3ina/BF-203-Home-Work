@@ -1,0 +1,106 @@
+.photos {
+  display: grid;
+}
+.photo1 {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg");
+  width: 610px;
+  height: 400px;
+  background-size: cover;
+  font-size: 0.8rem;
+}
+
+.photo1 {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.photo1:hover {
+  transform: scale(0.8);
+}
+
+.photo2 {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg");
+  width: 610px;
+  height: 400px;
+  background-size: cover;
+}
+.photo2 {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.photo2:hover {
+  transform: scale(0.8);
+}
+.photo3 {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg");
+  width: 610px;
+  height: 400px;
+  background-size: cover;
+}
+.photo3 {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.photo3:hover {
+  transform: scale(0.8);
+}
+.photo4 {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg");
+  width: 610px;
+  height: 400px;
+  background-size: cover;
+}
+.photo4 {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.photo4:hover {
+  transform: scale(0.8);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  width: 1422px;
+}
+.portfolio {
+  font-size: 1rem;
+  font-style: normal;
+  color: #e9b103;
+  margin-bottom: 0px;
+}
+.recent {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.h2 {
+  font-size: 0.8rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: white;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.textphoto {
+  text-align: left;
+  padding: 30px;
+  margin-top: 250px;
+}
+@media only screen and (min-width: 1400px) {
+  .photos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .photos {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+  background-color: #1d809f;
+  height: 300px;
+  padding-top: 60px;
+  width: 1422px;
+}
+.h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 60px;
+}
+.click {
+  background-color: white;
+  color: black;
+  margin: 10px;
+}
+.look {
+  background-color: black;
+  margin: 10px;
+}
