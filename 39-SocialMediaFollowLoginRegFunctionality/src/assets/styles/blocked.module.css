@@ -1,0 +1,27 @@
+.circle {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://cdn.icon-icons.com/icons2/2506/PNG/512/user_icon_150670.png");
+  background-size: cover;
+  border: 3px solid black;
+  background-color: rgba(244, 244, 244, 0.664);
+  border-radius: 50%;
+}
+.li {
+  border: 1px solid black;
+  display: flex;
+  background-color: rgba(226, 228, 228, 0.685);
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+  border-radius: 7px;
+}
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.unblock {
+  background-color: black;
+}

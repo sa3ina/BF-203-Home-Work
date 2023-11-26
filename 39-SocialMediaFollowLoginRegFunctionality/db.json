@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "name": "Asmar",
+      "surname": "surname 6",
+      "email": "email",
+      "password": "asmar",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [],
+      "blocked": [],
+      "requests": [],
+      "id": "1"
+    },
+    {
+      "name": "Ayan",
+      "surname": "surname 6",
+      "email": "email",
+      "password": "ayan",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [],
+      "blocked": [],
+      "requests": [
+        {
+          "name": "Fatma",
+          "id": "5"
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "name": "Aysun",
+      "surname": "surname 6",
+      "email": "email",
+      "password": "aysun",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [],
+      "blocked": [],
+      "requests": [
+        {
+          "name": "Fatma",
+          "id": "5"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "name": "Fatima",
+      "surname": "surname 6",
+      "email": "email",
+      "password": "fatima",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [],
+      "blocked": [],
+      "requests": [],
+      "id": "4"
+    },
+    {
+      "name": "Fatma",
+      "surname": "surname 6",
+      "email": "email.com",
+      "password": "fatma",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [
+        {
+          "name": "Ayan",
+          "id": "2"
+        }
+      ],
+      "blocked": [],
+      "requests": [],
+      "id": "5"
+    },
+    {
+      "name": "Hamida",
+      "surname": "surname 6",
+      "email": "email.com",
+      "password": "hamida",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [],
+      "blocked": [],
+      "requests": [],
+      "id": "6"
+    },
+    {
+      "name": "Ismayil",
+      "surname": "surname 6",
+      "email": "email.com",
+      "password": "ismayil",
+      "orders": [],
+      "balance": 54,
+      "basket": [],
+      "favorites": [],
+      "isAdmin": false,
+      "friends": [],
+      "blocked": [],
+      "requests": [],
+      "id": "7"
+    }
+  ]
+}
