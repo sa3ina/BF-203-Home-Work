@@ -13,6 +13,8 @@ const Friends = ({
   blocked,
   setBlockedUsers,
 }) => {
+  const [friend, setFriends] = useState([]);
+
   const [refreshUsers, setRefreshUsers] = useState(false);
 
   useEffect(() => {
@@ -27,13 +29,18 @@ const Friends = ({
       setBlockedUsers(res.data.blocked);
     });
   }, [refreshUsers]);
+  useEffect(() => {
+    axios(`http://localhost:3000/users/${user.id}`).then((res) => {
+      setFriends(res.data.friends);
+    });
+  }, [refreshUsers]);
 
   let currentUser = JSON.parse(localStorage.getItem("user")) || {};
   const usersWhoBlockedCurrentUser = users.filter(
     (item) =>
       item.blocked && item.blocked.some((block) => block.id === currentUser.id)
   );
-
+  console.log(currentUser);
   const filteredUsers = users.filter((item) => {
     const isNotCurrentUser = item.id !== currentUser.id;
     const matchesSearch =
@@ -124,9 +131,9 @@ const Friends = ({
                 >
                   {users
                     .find((user) => user.id === element.id)
-                    ?.requests.some((req) => req.id === currentUser.id)
+                    ?.requests?.some((req) => req.id === currentUser.id)
                     ? "Request sent"
-                    : currentUser.friends.some(
+                    : currentUser.friends?.some(
                         (friend) => friend.id === element.id
                       )
                     ? "Friends"
@@ -149,7 +156,7 @@ const Friends = ({
                         { id: blockedUserId, name: userToBlock.name },
                       ],
                     };
-
+                    localStorage.setItem("user", JSON.stringify(updatedUser));
                     axios
                       .put(
                         `http://localhost:3000/users/${user.id}`,

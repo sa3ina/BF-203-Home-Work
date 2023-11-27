@@ -8,9 +8,9 @@
   border-radius: 50%;
 }
 .li {
-  border: 1px solid black;
+  border: 1px solid;
   border-radius: 7px;
-  background-color: rgba(226, 228, 228, 0.685);
+  background-color: #eef0ff;
   display: flex;
   align-items: center;
   gap: 40px;

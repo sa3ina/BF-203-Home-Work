@@ -25,18 +25,18 @@
   background-color: transparent;
 }
 .button {
-  background-color: #3b5898;
-  color: white;
+  background-color: blueviolet;
   width: 100%;
+  color: white;
 }
 .button:hover {
-  background-color: #152b5b;
-}
-.p {
-  font-weight: 400;
+  background-color: rgb(184, 208, 254);
 }
 .option {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.p {
+  font-weight: 400;
 }

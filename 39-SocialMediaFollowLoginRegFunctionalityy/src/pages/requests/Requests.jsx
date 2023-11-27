@@ -25,21 +25,20 @@ const Requests = ({ users, setUsers, request, setRequest }) => {
     <>
       <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
         <h2>Friend Requests</h2>
-        {request.length === 0 ? (
+        {request?.length === 0 ? (
           <p>No friend requests at the moment.</p>
         ) : (
           <ul
             className={styles.ul}
             style={{ listStyleType: "none", padding: 0 }}
           >
-            {request.map((request) => (
+            {request?.map((request) => (
               <li
                 className={styles.li}
                 key={request.id}
                 style={{
-                  marginBottom: "15px",
-                  borderBottom: "1px solid #ccc",
-                  paddingBottom: "10px",
+                  marginBottom: "20px",
+                  padding: "15px",
                   width: "60%",
                 }}
               >
@@ -50,7 +49,7 @@ const Requests = ({ users, setUsers, request, setRequest }) => {
                   style={{
                     marginRight: "10px",
 
-                    backgroundColor: "#4CAF50",
+                    backgroundColor: "#4895ef",
                     color: "white",
                     border: "none",
                     cursor: "pointer",
@@ -104,7 +103,7 @@ const Requests = ({ users, setUsers, request, setRequest }) => {
                 <button
                   user-id={request.id}
                   style={{
-                    backgroundColor: "#f44336",
+                    backgroundColor: "grey",
                     color: "white",
                     border: "none",
                     cursor: "pointer",

@@ -26,7 +26,7 @@ const Blocked = ({
       setBlockedUsers(res.data.blocked);
     });
   }, [refreshUsers]);
-
+  console.log(blocked);
   return (
     <>
       <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
@@ -43,9 +43,8 @@ const Blocked = ({
                 className={styles.li}
                 key={request.id}
                 style={{
-                  marginBottom: "15px",
-                  borderBottom: "1px solid #ccc",
-                  paddingBottom: "10px",
+                  padding: "15px",
+                  marginBottom: "20px",
                   width: "60%",
                 }}
               >
@@ -61,13 +60,17 @@ const Blocked = ({
                     cursor: "pointer",
                   }}
                   onClick={(e) => {
-                    let userInfo = users.find(
-                      (elem) => elem.id === e.target.getAttribute("user-id")
-                    );
+                    let blockedUserId = e.target.getAttribute("user-id");
 
-                    const updatedBlocked = userInfo.blocked.filter(
-                      (req) => req.id !== user.id
+                    const updatedBlocked = blocked.filter(
+                      (user) => user.id !== blockedUserId
                     );
+                    const updatedUser = {
+                      ...user,
+                      blocked: updatedBlocked,
+                    };
+
+                    localStorage.setItem("user", JSON.stringify(updatedUser));
 
                     axios
                       .patch(`http://localhost:3000/users/${user.id}`, {
@@ -76,6 +79,9 @@ const Blocked = ({
                       .then(() => {
                         setBlockedUsers(updatedBlocked);
                         setRefreshUsers((prevState) => !prevState);
+                      })
+                      .catch((error) => {
+                        console.error("Error unblocking user:", error);
                       });
                   }}
                 >

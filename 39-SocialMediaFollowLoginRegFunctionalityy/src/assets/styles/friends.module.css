@@ -47,7 +47,7 @@
   margin-bottom: 8px;
 }
 .button {
-  background-color: rgb(12, 146, 255);
+  background-color: rgb(133, 12, 255);
   color: #fff;
   border: none;
   /* padding: 10px; */
@@ -107,6 +107,9 @@
   height: 30px;
   margin-bottom: 20px;
   margin-top: 30px;
+  border: 1px solid #8338ec;
+  color: black;
+  border-radius: 6px;
 }
 @media only screen and (max-width: 507px) {
   .search {

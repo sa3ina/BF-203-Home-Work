@@ -27,12 +27,7 @@
       "isAdmin": false,
       "friends": [],
       "blocked": [],
-      "requests": [
-        {
-          "name": "Fatma",
-          "id": "5"
-        }
-      ],
+      "requests": [],
       "id": "2"
     },
     {
@@ -47,12 +42,7 @@
       "isAdmin": false,
       "friends": [],
       "blocked": [],
-      "requests": [
-        {
-          "name": "Fatma",
-          "id": "5"
-        }
-      ],
+      "requests": [],
       "id": "3"
     },
     {
@@ -80,14 +70,8 @@
       "basket": [],
       "favorites": [],
       "isAdmin": false,
-      "friends": [
-        {
-          "name": "Ayan",
-          "id": "2"
-        }
-      ],
+      "friends": [],
       "blocked": [],
-      "requests": [],
       "id": "5"
     },
     {

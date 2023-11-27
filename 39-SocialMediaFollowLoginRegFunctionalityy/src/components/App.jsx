@@ -120,6 +120,8 @@ function App() {
               setUsers={setUsers}
               request={request}
               setRequest={setRequest}
+              blocked={blocked}
+              setBlockedUsers={setBlockedUsers}
             />
           }
         />
