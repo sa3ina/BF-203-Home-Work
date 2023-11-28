@@ -1,5 +1,10 @@
 import { useState } from "react";
-
+import img1 from "./assets/images/img1.png";
+import img2 from "./assets/images/img2.png";
+import img3 from "./assets/images/img3.png";
+import low from "./assets/images/low.png";
+import google from "./assets/images/google.png";
+import app from "./assets/images/app.png";
 import "./App.css";
 
 function App() {
@@ -13,17 +18,9 @@ function App() {
             </p>
             <div className="image">
               <div className="images">
-                <img className="left-photo" src="imgfeatures-archive 4.png" />
-                <img
-                  className="right-photo"
-                  src="imgfeatures-archive 5.png"
-                  alt=""
-                />
-                <img
-                  className="center-photo"
-                  src="imgfeatures-archive 6.png"
-                  alt=""
-                />{" "}
+                <img className="left-photo" src={img2} />
+                <img className="right-photo" src={img3} alt="" />
+                <img className="center-photo" src={img1} alt="" />{" "}
               </div>
             </div>
             <div className="circles">
@@ -36,7 +33,7 @@ function App() {
         <div className="right">
           <div className="right-wrapper">
             <div className="cap">
-              <img src="img-new-logo-low-quality.png" alt="" />
+              <img src={low} alt="" />
               <p className="capzul">Capzul</p>
             </div>
             <div className="createacc">
@@ -97,8 +94,8 @@ function App() {
               <p className="second">Log In</p>
             </div>
             <div className="last">
-              <img className="google" src="google.png" alt="" />
-              <img src="app.png" alt="" />
+              <img className="google" src={google} alt="" />
+              <img src={app} alt="" />
             </div>
           </div>
         </div>
